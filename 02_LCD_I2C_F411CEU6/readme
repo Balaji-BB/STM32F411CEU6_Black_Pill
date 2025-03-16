@@ -1,0 +1,8 @@
+Interfacing I2C based LCD Module via I2C Communication protocol.
+Note :
+1) For LCD to be properly initialized, it should be supplied 5V instead of 3.3V.
+2) Addition to that, level shifter should be used to connect SCL and SDA lines of LCD module with I2C Peripheral of STM32. (5V is non-tolerant for STM32F4).
+3) External Pull up resistors are not necessary since LCD I2C module has those resistors embedded in it.
+
+SCL--->PB6
+SDA--->PB7
