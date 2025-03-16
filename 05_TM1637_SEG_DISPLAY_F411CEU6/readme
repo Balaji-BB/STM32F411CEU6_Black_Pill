@@ -1,0 +1,8 @@
+Interfacing 4 Digit 7 Segment Display (TM1637 Based) using GPIO peripheral
+This display will be useful for Clock Display.
+
+Connections :
+PB8 - CLK
+PB9 - DIO
+3.3V - VCC
+GND - GND

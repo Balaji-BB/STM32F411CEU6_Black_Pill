@@ -1,0 +1,7 @@
+../Core/Src/tm1637_seg_display.c:14:6:TM1637_START	8	static
+../Core/Src/tm1637_seg_display.c:21:6:TM1637_STOP	8	static
+../Core/Src/tm1637_seg_display.c:31:6:TM1637_CHECKACK	8	static
+../Core/Src/tm1637_seg_display.c:41:6:Delay_us	24	static,ignoring_inline_asm
+../Core/Src/tm1637_seg_display.c:51:6:TM1637_WRITEBYTE	24	static
+../Core/Src/tm1637_seg_display.c:72:6:TM1637_WRITEDATA	24	static
+../Core/Src/tm1637_seg_display.c:94:6:TM1637_CLK_DISP	16	static
