@@ -1,0 +1,19 @@
+Interfacing cascaded Dot Matrix Display(MAX7219 based) using SPI Protocol.
+Note :
+1) Dot Matrix Display can work with both 3.3V & 5V respectively. But don't forget to use level shifter in case of 5V supply voltage.
+2) DMA memory allocation utilized in the code may cause heap overflow in case of sending too much large strings.
+
+Mode - Half Duplex / Full Duplex
+Hardware NSS Signal - Output Mode (I had utilized separate GPIO pin for Chip Select)
+Data Size - 16 Bits
+First Bit - MSB First
+CPOL - LOW
+CPHA - 1 Edge
+
+Connections :
+STM32 - MAX7219 Dot Matrix Display Module
+MOSI(PB5) - DIN
+SCK(PB3) - CLK
+CS(PA12) - CS
+5V/3.3V - VCC
+GND - GND
